@@ -1,3 +1,6 @@
+### Public URL on Github Pages
+https://raymondlei90s.github.io/cs4249_assgn1_ay1819s1/
+
 ### Condition Arrangement
 
 The condition arrangement is generated from the `generate-participants.js` script inside the `js` folder. To execute it, run

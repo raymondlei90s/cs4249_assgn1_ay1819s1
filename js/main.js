@@ -118,7 +118,7 @@ menuApp.controller('ExpController', function ($scope, $location, $http) {
 
         console.log(taskNumber);
 
-        $http({method: 'GET', url: '../task/tasks-'+taskNumber+'.json'})
+        $http({method: 'GET', url: 'task/tasks-'+taskNumber+'.json'})
         .success(function(data, status, headers, config) {
           var targetItem = data.data.target;
           $scope.currTarget = targetItem;
