@@ -37,24 +37,6 @@ function getData(relativePath) {
 
 // Loads the CSV data files on page load and store it to global variables
 function initExperiment() {
-
-	// Get Trails
-	var data = getData(trialsFile);
-
-	var records = data.split("\n");
-	numTrials = records.length - 1;
-	for (var i = 1; i <= numTrials; i++) {
-		var cells = records[i].split(",");
-		var menuType = cells[0].trim();
-		var menuDepth = cells[1].trim();
-		var targetItem = cells[2].trim();
-		trialsData[i] = {
-			'Menu Type': menuType,
-			'Menu Depth': menuDepth,
-			'Target Item': targetItem
-		};
-	}
-
 	// Get Menus
 	var menuL1Data = getData(menuL1File);
 	var menuL2Data = getData(menuL2File);
@@ -67,83 +49,7 @@ function initExperiment() {
 	radialMenuL1 = formatRadialMenuData(menuL1Data);
 	radialMenuL2 = formatRadialMenuData(menuL2Data);
 	radialMenuL3 = formatRadialMenuData(menuL3Data);
-	
-	//Start the first trial
-	nextTrial();
 }
-
-// Wrapper around nextTrial() to prevent click events while loading menus
-function loadNextTrial(e){
-	e.preventDefault();
-	nextTrial();
-	
-}
-
-// Move to next trai and record events
-function nextTrial() {
-
-	
-	if (currentTrial <= numTrials) {
-
-		var menuType = trialsData[currentTrial]['Menu Type'];
-		var menuDepth = trialsData[currentTrial]['Menu Depth'];
-		var targetItem = trialsData[currentTrial]['Target Item'];
-
-		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
-		document.getElementById("menuType").innerHTML = menuType;
-		document.getElementById("menuDepth").innerHTML = menuDepth;
-		document.getElementById("targetItem").innerHTML = targetItem;
-		document.getElementById("selectedItem").innerHTML = "&nbsp;";
-		// Set IV3 state over here
-
-		tracker.newTrial();
-		tracker.trial = currentTrial;
-		tracker.menuType = menuType;
-		tracker.menuDepth = menuDepth;
-		tracker.targetItem = targetItem;
-
-		if (menuType === "Marking") {
-				
-			initializeMarkingMenu();
-			
-			if(menuDepth == 1){
-				menu = MarkingMenu(markingMenuL1, document.getElementById('marking-menu-container'));
-			}
-			else if(menuDepth == 2){
-				menu = MarkingMenu(markingMenuL2, document.getElementById('marking-menu-container'));
-			}else if(menuDepth == 3){
-				menu = MarkingMenu(markingMenuL3, document.getElementById('marking-menu-container'));
-			}
-
-			markingMenuSubscription = menu.subscribe((selection) => markingMenuOnSelect(selection));
-
-		} else if (menuType === "Radial") {
-
-			initializeRadialMenu();			
-			if (menuDepth == 1){
-				menu = createRadialMenu(radialMenuL1);
-			}
-			else if(menuDepth == 2){
-				menu = createRadialMenu(radialMenuL2);
-			}else if(menuDepth == 3){
-				menu = createRadialMenu(radialMenuL3);
-			}
-
-
-		}
-
-		currentTrial++;
-	} else {
-		
-	    var nextButton = document.getElementById("nextButton");
-	    nextButton.innerHTML = "Done";
-		tracker.toCsv();
-	}
-}
-
-
-
-
 
 /*Functions related to MarkingMenu*/
 

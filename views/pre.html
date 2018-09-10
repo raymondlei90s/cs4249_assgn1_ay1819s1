@@ -1,0 +1,311 @@
+<div class="container overflow">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Pre-Experiment Questionnaire</h1>
+        <hr>
+        <p>Please complete the following questions.</p>
+
+        <form class="form-horizontal well" role="form">
+          <h3>Participant Information (ID: {{$parent.user.pid}})</h3>
+          <hr>
+  
+          <div class="form-group">
+            <label for="participant-name" class="col-sm-3 control-label">Name</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="participant-name" placeholder="Name of participant" ng-model="$parent.user.pre.name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="participant-age" class="col-sm-3 control-label">Age</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="participant-age" placeholder="Positive integers only please, no form validation done here" ng-model="$parent.user.pre.age">
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <label for="participant-gender" class="col-sm-3 control-label">Gender</label>
+              <div class="col-sm-9">
+                <select id="participant-gender" class="form-control" ng-model="$parent.user.pre.gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="participant-education" class="col-sm-3 control-label">Education Level</label>
+            <div class="col-sm-9">
+              <select id="participant-education" class="form-control" ng-model="$parent.user.pre.education_level">
+                <option value="o-level">O Levels</option>
+                <option value="a-level">A Levels</option>
+                <option value="diploma">Diploma</option>
+                <option value="bachelors">Bachelors</option>
+                <option value="masters">Masters</option>
+                <option value="phd">PhD</option>
+                <option value="none">None</option>
+              </select>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <label for="participant-occupation" class="col-sm-3 control-label">Occupation</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="participant-occupation" placeholder="Occupation of participant" ng-model="$parent.user.pre.occupation">
+            </div>
+          </div>
+        </form>
+  
+        <form class="form-horizontal well" role="form">
+          <h3>Physical Condition</h3>
+          <hr>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-hand">
+                Are you left-handed or right-handed?
+              </label>
+            </div>
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-hand" value="left" ng-model="$parent.user.pre.hand"> Left-handed
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-hand" value="right" ng-model="$parent.user.pre.hand"> Right-handed
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-alcohol">
+                Have you consumed any amount of alcohol within the last 6 hours?
+              </label>
+            </div>
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-alcohol" value="yes" ng-model="$parent.user.pre.alcohol"> Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-alcohol" value="no" ng-model="$parent.user.pre.alcohol"> No
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-medication">
+                Are you taking any medication?</small>
+              </label>
+            </div>
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-medication" value="yes" ng-model="$parent.user.pre.medication"> Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-medication" value="no"  ng-model="$parent.user.pre.medication"> No
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+  
+        <form class="form-horizontal well" role="form">
+          <h3>Technical Experience</h3>
+          <hr>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-computer-usage">
+                How long do you use a computer a day on average?
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-computer-usage" value="<1" ng-model="$parent.user.pre.computer_usage"> &lt; 1 hour
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-computer-usage" value="1-2" ng-model="$parent.user.pre.computer_usage"> 1 - 2 hours
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-computer-usage" value="3-4" ng-model="$parent.user.pre.computer_usage"> 3 - 4 hours
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-computer-usage" value="5-6" ng-model="$parent.user.pre.computer_usage"> 5 - 6 hours
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-computer-usage" value=">6" ng-model="$parent.user.pre.computer_usage"> &gt; 6 hours
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-click-frequency">
+                How often do you use mouse in your computer usage?<br><small>(1 being least often; 5 being most often)</small>
+              </label>
+            </div>
+            <div class="col-sm-12">
+              <label class="radio-inline">
+                <input type="radio" name="participant-click-frequency" value="1" ng-model="$parent.user.pre.click_frequency"> 1
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="participant-click-frequency" value="2" ng-model="$parent.user.pre.click_frequency"> 2
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="participant-click-frequency" value="3" ng-model="$parent.user.pre.click_frequency"> 3
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="participant-click-frequency" value="4" ng-model="$parent.user.pre.click_frequency"> 4
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="participant-click-frequency" value="5" ng-model="$parent.user.pre.click_frequency"> 5
+              </label>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-click-familiarity">
+                How familiar are you with using mouse (moving, left&right clicking)?<br><small>(1 being not familiar; 5 being extremely familiar)</small>
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-familiarity" value="1" ng-model="$parent.user.pre.click_familiarity"> 1
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-familiarity" value="2" ng-model="$parent.user.pre.click_familiarity"> 2
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-familiarity" value="3" ng-model="$parent.user.pre.click_familiarity"> 3
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-familiarity" value="4" ng-model="$parent.user.pre.click_familiarity"> 4
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-familiarity" value="5" ng-model="$parent.user.pre.click_familiarity"> 5
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-click-method">
+                What device do you usually use?
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-method" value="mouse" ng-model="$parent.user.pre.click_method"> Mouse
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-click-method" value="trackpad" ng-model="$parent.user.pre.click_method"> Track Pad
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-marking-heard">
+                Have you heard of Marking Menu before?
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-marking-heard" value="yes" ng-model="$parent.user.pre.marking_heard"> Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-marking-heard" value="no" ng-model="$parent.user.pre.marking_heard"> No
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-marking-used">
+                Have you used Marking Menu before?
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-marking-used" value="yes" ng-model="$parent.user.pre.marking_used"> Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-marking-used" value="no" ng-model="$parent.user.pre.marking_used"> No
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-radial-heard">
+                Have you heard of Radial Menu before?
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-radial-heard" value="yes" ng-model="$parent.user.pre.radial_heard"> Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-radial-heard" value="no" ng-model="$parent.user.pre.radial_heard"> No
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label for="participant-radial-used">
+                Have you used Radial Menu before?
+              </label>
+            </div>
+  
+            <div class="col-sm-12">
+              <div>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-radial-used" value="yes" ng-model="$parent.user.pre.radial_used"> Yes
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="participant-radial-used" value="no" ng-model="$parent.user.pre.radial_used"> No
+                </label>
+              </div>
+            </div>
+          </div>
+  
+        </form>
+        
+        <div class="form-group next-page-container">
+          <div class="col-sm-12">
+            <button type="submit" class="btn btn-default btn-lg" ng-click="nextPage()">Proceed</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>  
+  </div>
+  

@@ -1,0 +1,1096 @@
+{
+    "data": {
+        "P1": [
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            }
+        ],
+        "P2": [
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            }
+        ],
+        "P3": [
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            }
+        ],
+        "P4": [
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            }
+        ],
+        "P5": [
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            }
+        ],
+        "P6": [
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Radial",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    10,
+                    11,
+                    12
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Small",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    19,
+                    20,
+                    21
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    13,
+                    14,
+                    15
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Large",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    22,
+                    23,
+                    24
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 1,
+                "menuDepthTask": [
+                    7,
+                    8,
+                    9
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 2,
+                "menuDepthTask": [
+                    16,
+                    17,
+                    18
+                ]
+            },
+            {
+                "technique": "Marking",
+                "windowSize": "Medium",
+                "menuDepth": 3,
+                "menuDepthTask": [
+                    25,
+                    26,
+                    27
+                ]
+            }
+        ]
+    }
+}

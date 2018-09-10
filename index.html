@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="MenuApp"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CS4249 Phenomena and Theories of Human-Computer Interaction - Experiment to compare Marking and Radial Menu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/vendor/bootstrap.flatly.min.css">
+        <link rel="stylesheet" href="css/vendor/jquery-ui-1.10.3.custom.min.css" />
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Marking Menu Stylesheet -->
+        <link href="./css/external/marking-menu.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
+        <!-- Experiment Stylesheet -->
+        <link href="./css/experiment.css" rel="stylesheet"> 
+
+        <script src="js/vendor/jquery-2.0.2.min.js"></script>
+        <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/angular.min.js"></script>
+        <script src="js/vendor/angular-route.min.js"></script>
+
+        <!-- Marking Menu Scripts -->
+        <script src="./js/external/jquery-3.3.1.min.js"></script>
+        <script src="./js/external/rxjs.umd.js"></script>
+        <script src="./js/external/marking-menu.js"></script>
+        
+        <!-- Radial Menu Scripts -->
+        <script src="./js/external/d3.min.js" ></script>
+        <script src="./js/external/es6-promise.auto.min.js"></script>
+        <script src="./js/external/sunburst-menu.js"></script>
+
+        <!-- Common Scripts -->
+        <script src="./js/base64.js"></script>
+
+        <!-- Experiment Scripts -->
+        <script src="./js/experiment-tracker.js"></script>
+        <script src="./js/experiment.js"></script>
+
+    </head>
+    <body ng-controller="AppController">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand">CS4249 Phenomena and Theories of Human-Computer Interaction - Experiment to compare Marking and Radial Menu</a>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container-fluid full-height main-area" ng-view>
+            
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
