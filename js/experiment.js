@@ -164,9 +164,10 @@ function createRadialMenu(radialMenuL){
     	radialmenuElement.parentNode.removeChild(radialmenuElement);
     }
 	
-	
-	var w = window.innerWidth;
-	var h = window.innerHeight;
+	var container = document.getElementById('interaction-container');
+	var w = container.clientWidth;
+	var h = container.clientHeight;
+
 	var radialMenuSvgElement = document.getElementById('radial-menu-svg');
 	if (radialMenuSvgElement != null){
 		radialMenuSvgElement.parentNode.removeChild(radialMenuSvgElement);
@@ -178,13 +179,14 @@ function createRadialMenu(radialMenuL){
 
 // Toggle radial menu on right click
 function toggleRadialMenu(e) {
+	console.log(e);
 	
 	if(tracker.startTime == null){
 	
 		if(radialMenuTree != null){
 				menu = module.exports(radialMenuTree, {
-					x: e.clientX,
-					y: e.clientY
+					x: e.layerX,
+					y: e.layerY
 				}, radialMenuSvg);
 		
 			// Start timing once menu appears
@@ -197,8 +199,8 @@ function toggleRadialMenu(e) {
 		
 		if(radialMenuTree != null){
 			menu = module.exports(radialMenuTree, {
-				x: e.clientX,
-				y: e.clientY
+				x: e.layerX,
+				y: e.layerY
 			}, radialMenuSvg);
 	
 		// Start timing once menu appears

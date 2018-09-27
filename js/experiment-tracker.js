@@ -43,7 +43,7 @@ class ExperimentTracker {
 		this.attempt = 1;
 	}
 
-	toCsv() {
+	toCsv(Pid) {
 		var csvFile = "Trial,Attempt,Menu Type,Menu Depth,Window Size,Target Item,Selected Item,Start Time, End Time\n";
 		for (var i = 0; i < this.trials.length; i++) {
 			csvFile += this.trials[i].join(',');
@@ -53,7 +53,7 @@ class ExperimentTracker {
 		var hiddenLink = document.createElement('a');
 		hiddenLink.href = 'data:text/csv;charset=utf-8,' + encodeURI(csvFile);
 		hiddenLink.target = '_blank';
-		hiddenLink.download = 'experiment.csv';
+		hiddenLink.download = Pid + '-experiment.csv';
 		document.body.appendChild(hiddenLink);
 		hiddenLink.click();
 	}

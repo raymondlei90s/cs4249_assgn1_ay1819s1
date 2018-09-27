@@ -109,7 +109,7 @@ menuApp.controller('ExpController', function ($scope, $location, $http) {
 
         $scope.windowSize = {width: "93%", height: "80%"};
         if (windowSize == "Small") {
-          $scope.windowSize = {width: "23%", height: "50%", left: "35%", top: "15%"};
+          $scope.windowSize = {width: "33%", height: "60%", left: "35%", top: "15%"};
         } else if (windowSize == "Large") {
           $scope.windowSize = {width: "93%", height: "80%"};
         } else {
@@ -175,7 +175,7 @@ menuApp.controller('ExpController', function ($scope, $location, $http) {
       } else {
           var nextButton = document.getElementById("nextButton");
           nextButton.innerHTML = "Done";
-          tracker.toCsv();
+          tracker.toCsv(pid);
           $location.path('post');
       }
   }
